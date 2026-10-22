@@ -1,0 +1,43 @@
+诡秘之主 源质主职 mod —— 本地工具包使用说明
+================================================
+
+用途：在不把 10.5 GB 整合包上传到远程沙箱的前提下，
+在你自己电脑上扫描整合包、找出「等级拓展」mod、只抽取其中几 KB 的配置文件。
+
+一、准备（只需一次）
+  1. 安装 Python 3.8+：https://www.python.org/downloads/
+     安装时勾选 "Add Python to PATH"
+  2. 打开命令提示符（Win+R 输入 cmd），执行：
+         pip install lz4
+
+二、扫描整个整合包，找出等级拓展
+  在本文件夹内打开命令提示符，执行（路径改成你自己的）：
+      python scan_paks.py "C:\Users\wenso\Downloads\博德3Mod-B站-在下夜独 2026.7.26\【必下】整合包"
+
+  输出说明：
+      [命中]  = 含全局等级/经验/上限相关文件，最可能是等级拓展
+      [提示]  = 只含职业自带的 Levelmaps，通常不是
+      [    ]  = 无关
+  文件末尾的「结论」会按体积从小到大列出候选 pak。
+
+三、从候选 pak 里只抽出配置文件（几 KB，可直接上传）
+      python extract_subset.py "候选.pak的完整路径" "out"
+
+  例：
+      python extract_subset.py "C:\...\等级扩展.pak" "C:\Users\wenso\Desktop\levelmod"
+
+  然后把这个 out 文件夹压成 zip 上传即可。
+
+四、查看某个 pak 里有哪些相关文件（不解包）
+      python extract_subset.py "候选.pak的完整路径" --list
+
+五、其它工具
+  lspk.py           pak 读取/全量解包库（被上面脚本调用）
+  extract_subset.py 按关键字抽取 + --list 看清单
+  pack_pak.py       把目录打包成 .pak：python pack_pak.py <源目录> <输出.pak>
+                    （用于修改后重新打包，已做 21/21 文件字节级校验）
+
+六、常见问题
+  * 报 "No module named lz4"  → 执行 pip install lz4
+  * 报 "不是 pak 文件"        → 路径写错，或该 .pak 是压缩包伪装的
+  * 路径含空格/中文，一定用英文双引号把路径括起来
