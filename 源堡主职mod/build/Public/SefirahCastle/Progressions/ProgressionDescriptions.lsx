@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ProgressionDescriptions">
+    <node id="root">
+      <children>
+        <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hbc4241c4ge7eag5579g9520g6d17d44aecc4" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h537bcbaeg900dg5478g9b05g4e59da1db60a" version="1" />
+                    <attribute id="ProgressionTableId" type="guid" value="e1212b8f-77b2-58cc-a834-d4301df74647" />
+                    <attribute id="Type" type="FixedString" value="SefirahCastle" />
+                    <attribute id="UUID" type="guid" value="b22662c1-1a68-599d-a218-ca8de8b260d0" />
+        </node>
+        <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hf2f3b5b4g86edg593fga129gb7a452fc6bf6" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b2fd73cg8e05g555fg83d6g2c4595a637e1" version="1" />
+                    <attribute id="ProgressionTableId" type="guid" value="e14e5c31-11bf-57e6-9d17-00d963931810" />
+                    <attribute id="Type" type="FixedString" value="Fool" />
+                    <attribute id="UUID" type="guid" value="4916753a-f13a-53c3-a81c-6cad8bb094d8" />
+        </node>
+        <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h6dd7cefagc444g5a90gb02bgd622d6f6646c" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8dc4eb4cg7cd9g5b72g849ege7c8e2f5adc4" version="1" />
+                    <attribute id="ProgressionTableId" type="guid" value="77f5a050-3529-5ddb-a7c7-c1263d1896c8" />
+                    <attribute id="Type" type="FixedString" value="Door" />
+                    <attribute id="UUID" type="guid" value="51aac341-8969-5194-a858-cc3a294b48be" />
+        </node>
+        <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h0893e782gd1d1g54f1g86e3g43e46773faa3" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf56836edg9238g5142g8c96ga1347a0fb3dc" version="1" />
+                    <attribute id="ProgressionTableId" type="guid" value="bef45f04-4d42-5016-9f98-9d163fbde5e8" />
+                    <attribute id="Type" type="FixedString" value="Error" />
+                    <attribute id="UUID" type="guid" value="e0ff7539-b1c4-5cef-a7f4-79a4d7c18853" />
+        </node>
+      </children>
+    </node>
+  </region>
+</save>

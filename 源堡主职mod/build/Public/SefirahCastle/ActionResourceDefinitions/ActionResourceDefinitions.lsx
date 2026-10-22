@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ActionResourceDefinitions">
+    <node id="root">
+      <children>
+        <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h0d4eb6a1gbdacg5c57gb807ge5350ef9a804" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8111fa9egd521g5d3ag9794g3b9547caea84" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="Spirituality" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="e5b011be-4db2-5610-91ba-8597bee672c5" />
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

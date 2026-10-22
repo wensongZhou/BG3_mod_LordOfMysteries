@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 1环" />
+                    <attribute id="Spells" type="LSString" value="Target_DissonantWhispers;Shout_DisguiseSelf;Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="d6975dad-a6de-5f48-ab05-fd81982240d6" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 2环" />
+                    <attribute id="Spells" type="LSString" value="Shout_MirrorImage;Target_MindSpike" />
+                    <attribute id="UUID" type="guid" value="7d2a5db4-737b-55c7-ada6-60611134847e" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 3环" />
+                    <attribute id="Spells" type="LSString" value="Target_Nondetection;Zone_Fear" />
+                    <attribute id="UUID" type="guid" value="fc89072d-719c-5c6d-bedb-04f198292a2f" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 4环" />
+                    <attribute id="Spells" type="LSString" value="Target_HungerOfHadar;Target_StinkingCloud" />
+                    <attribute id="UUID" type="guid" value="51122230-4101-5758-9c64-3f442ebfd85f" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 5环" />
+                    <attribute id="Spells" type="LSString" value="Target_EnemiesAbound;Shout_DarkPresence" />
+                    <attribute id="UUID" type="guid" value="194a5bde-195a-5639-bee1-e0986a676d95" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 6环" />
+                    <attribute id="Spells" type="LSString" value="Target_SummonShadowspawn" />
+                    <attribute id="UUID" type="guid" value="0f1f2710-4582-5669-8bfd-32d9ddda22e4" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 7环" />
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse" />
+                    <attribute id="UUID" type="guid" value="61dc4377-dd5d-5697-958f-af92d8d5144e" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="源堡法术 8环" />
+                    <attribute id="Spells" type="LSString" value="Target_CrownOfMadness" />
+                    <attribute id="UUID" type="guid" value="477091ef-438b-56ff-bf79-e1593d8bc8fa" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="愚者 3" />
+                    <attribute id="Spells" type="LSString" value="Shout_DisguiseSelf" />
+                    <attribute id="UUID" type="guid" value="327af32b-0927-5a55-adf7-3c6794ca4e9c" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="愚者 10" />
+                    <attribute id="Spells" type="LSString" value="Shout_MirrorImage" />
+                    <attribute id="UUID" type="guid" value="dc7c250f-892f-537c-9fa4-7c890c1595f3" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="愚者 14" />
+                    <attribute id="Spells" type="LSString" value="Target_Invisibility" />
+                    <attribute id="UUID" type="guid" value="d26b1d61-ff47-5cd7-a6c5-e6f207efc18a" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="愚者 17" />
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse" />
+                    <attribute id="UUID" type="guid" value="510ed17f-fcee-5a50-be60-752402edd946" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="门 3" />
+                    <attribute id="Spells" type="LSString" value="Target_MistyStep_BodyOfMist" />
+                    <attribute id="UUID" type="guid" value="f000d76d-2686-51bb-bd60-d545202be831" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="门 10" />
+                    <attribute id="Spells" type="LSString" value="Target_Nondetection" />
+                    <attribute id="UUID" type="guid" value="0cae4525-4478-50e8-91fd-f47607636aea" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="门 14" />
+                    <attribute id="Spells" type="LSString" value="Shout_ExpeditiousRetreat" />
+                    <attribute id="UUID" type="guid" value="7dc02fa0-98a1-5706-9fb9-38981b5d2a64" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="门 17" />
+                    <attribute id="Spells" type="LSString" value="Zone_GustOfWind" />
+                    <attribute id="UUID" type="guid" value="01b9ce46-9d0a-54ec-955b-2bc4d8180187" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="错误 3" />
+                    <attribute id="Spells" type="LSString" value="Target_DissonantWhispers" />
+                    <attribute id="UUID" type="guid" value="9c1677a2-8405-5723-be29-620eb0cc272a" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="错误 7" />
+                    <attribute id="Spells" type="LSString" value="Target_HideousLaughter" />
+                    <attribute id="UUID" type="guid" value="58606b9c-c8d7-5e07-80e0-a6d8e8f978d1" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="错误 10" />
+                    <attribute id="Spells" type="LSString" value="Target_CrownOfMadness" />
+                    <attribute id="UUID" type="guid" value="92fbd208-0ab9-55c1-9601-1acd0d569dd4" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="错误 14" />
+                    <attribute id="Spells" type="LSString" value="Target_BestowCurse" />
+                    <attribute id="UUID" type="guid" value="ee17fdf7-869b-563c-8792-8df12934b5b4" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="错误 17" />
+                    <attribute id="Spells" type="LSString" value="Target_EnemiesAbound" />
+                    <attribute id="UUID" type="guid" value="1ed5713f-390f-5209-8068-9efb0fc0368b" />
+                </node>
+      </children>
+    </node>
+  </region>
+</save>
