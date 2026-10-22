@@ -1,0 +1,1 @@
+# BG3_mod_LordOfMysteries
